@@ -1,4 +1,12 @@
 .App {
     width: 66%;
+    display: flex;
     margin: auto;
+    height: 600px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    -webkit-box-shadow: 10px 10px 128px -17px rgba(94,94,94,0.28);
+    -moz-box-shadow: 10px 10px 128px -17px rgba(94,94,94,0.28);
+    box-shadow: 10px 10px 128px -17px rgba(94,94,94,0.28);
+    border-radius: 20px;
 }

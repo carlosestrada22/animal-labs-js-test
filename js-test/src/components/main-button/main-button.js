@@ -4,7 +4,7 @@ import './main-button.css'
 
 class MainButton extends Component {
     state = { 
-        initialText: "click me!"
+        initialText: "Click me!"
      }
     render() {
         return (

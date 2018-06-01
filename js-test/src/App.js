@@ -13,8 +13,8 @@ class App extends Component {
 
     return (
       <div className="App">
-        <MainButton changeText={WordStore.setCurrentWord}/>
         <ChanginText text={WordStore.currentWord} />
+        <MainButton changeText={WordStore.setCurrentWord}/>
       </div>
     );
   }

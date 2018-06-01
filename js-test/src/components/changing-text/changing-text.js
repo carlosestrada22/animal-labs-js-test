@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './changing-text.css';
 
 class ChangingText extends Component {
     state = { 
@@ -6,10 +7,10 @@ class ChangingText extends Component {
      }
     render() {
         return (
-            <div className="changin-text">
-                <h3>
+            <div className="changing-text">
+                <span className="text">
                     {this.props.text}
-                </h3>
+                </span>
             </div>
         );
     }

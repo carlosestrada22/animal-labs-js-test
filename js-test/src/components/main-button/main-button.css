@@ -1,9 +1,28 @@
 .magic-button {
-    width: 300px;
-    height: 150px;
-    background: #49a234;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20pt;
+    position: relative;
+    height: 100px;
+    background-color: #49a234;
+    border: none;
+    font-size: 25pt;
+    color: #FFFFFF;
+    width: 90%;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.magic-button:hover {
+    -webkit-box-shadow: 10px 10px 128px -17px rgba(94,94,94,1);
+    -moz-box-shadow: 10px 10px 128px -17px rgba(94,94,94,1);
+    box-shadow: 10px 10px 128px -17px rgba(94,94,94,1);
+}
+.magic-button:active {
+    height: 104px;
+    width: 110%;
 }
 
 .button-container {
