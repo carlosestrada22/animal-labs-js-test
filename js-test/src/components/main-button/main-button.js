@@ -9,7 +9,7 @@ class MainButton extends Component {
     render() {
         return (
             <div className="button-container">
-                <button className="magic-button">
+                <button className="magic-button" onClick={this.props.changeText}>
                     {this.state.initialText}
                 </button>
             </div>

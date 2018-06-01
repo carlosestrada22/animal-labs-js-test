@@ -8,7 +8,7 @@ class ChangingText extends Component {
         return (
             <div className="changin-text">
                 <h3>
-                    {this.state.initialText}
+                    {this.props.text}
                 </h3>
             </div>
         );
