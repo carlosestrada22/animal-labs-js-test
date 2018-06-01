@@ -1,6 +1,7 @@
 import { observable, action, computed } from 'mobx';
 
 class WordStore {
+    // I'm doing it this way because it looks like all free random words API's doesn't like you to make more than 2500 request at day :( 
     words = [
         "arugola",
         "assenters",
@@ -122,6 +123,7 @@ class WordStore {
     }
 }
 
+// Exports the store as an instance so i'll have consistence among different calls
 const Words = new WordStore();
 
 export default Words;
