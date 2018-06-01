@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 
+import './main-button.css'
+
 class MainButton extends Component {
     state = { 
-        initialText: ""
+        initialText: "click me!"
      }
     render() {
         return (
             <div className="button-container">
-                <button>
-                    click me!
+                <button className="magic-button">
+                    {this.state.initialText}
                 </button>
             </div>
         );
